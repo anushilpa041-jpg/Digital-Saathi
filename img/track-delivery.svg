@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#eff6ff"/>
+  <rect x="120" y="120" width="560" height="260" rx="28" fill="#fff" opacity="0.95"/>
+  <rect x="170" y="175" width="150" height="150" rx="20" fill="#3b82f6"/>
+  <path d="M210 215l40 32 76-80" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="390" y="215" font-size="32" fill="#1d4ed8" font-family="Arial">Track Delivery</text>
+  <text x="390" y="270" font-size="42" fill="#111827" font-family="Arial" font-weight="700">Out for delivery</text>
+  <text x="390" y="315" font-size="22" fill="#4b5563" font-family="Arial">ETA: 20 minutes</text>
+</svg>

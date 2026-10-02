@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Saathi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="welcome-screen" class="screen active">
+      <div class="welcome-bg"></div>
+      <div class="welcome-overlay"></div>
+
+      <header class="welcome-header">
+        <div class="brand-mark">
+          <span class="brand-dark">Digital</span><span class="brand-purple">Saathi</span>
+        </div>
+      </header>
+
+      <main class="welcome-content">
+        <section class="welcome-copy">
+          <h1>
+            <span class="brand-dark">Digital</span><span class="brand-purple">Saathi</span>
+          </h1>
+          <p class="quote">“Technology should not be difficult, it should be a helping hand.”</p>
+          <p class="subtext">Simple guidance for everyone, one step at a time.</p>
+        </section>
+
+        <section class="form-card">
+          <h2>Let's Get Started</h2>
+          <p class="form-subtitle">Fill in your details to access simple guides and support.</p>
+
+          <form id="registration-form" novalidate>
+            <div class="field-group">
+              <label for="fullName">Full Name</label>
+              <input id="fullName" name="fullName" type="text" placeholder="Enter your full name" />
+            </div>
+
+            <div class="field-group">
+              <label>Gender</label>
+              <div class="gender-row">
+                <label class="radio-option"><input type="radio" name="gender" value="Female" /> Female</label>
+                <label class="radio-option"><input type="radio" name="gender" value="Male" /> Male</label>
+                <label class="radio-option"><input type="radio" name="gender" value="Other" /> Other</label>
+              </div>
+            </div>
+
+            <div class="field-row two-col">
+              <div class="field-group">
+                <label for="age">Age</label>
+                <input id="age" name="age" type="number" min="1" max="120" placeholder="Age" />
+              </div>
+              <div class="field-group">
+                <label for="mobile">Mobile Number</label>
+                <input id="mobile" name="mobile" type="tel" placeholder="Mobile Number" />
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label for="email">Email Address (Optional)</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" />
+            </div>
+
+            <div id="form-error" class="form-error" aria-live="polite"></div>
+
+            <button type="submit" class="primary-btn">Continue →</button>
+            <p class="security-note">🔒 Your information is safe with us</p>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <div id="dashboard-screen" class="screen">
+      <header class="topbar">
+        <div class="brand-mark small-brand">
+          <span class="brand-dark">Digital</span><span class="brand-purple">Saathi</span>
+        </div>
+
+        <nav class="main-nav">
+          <button class="nav-link active" data-nav="home">Home</button>
+          <button class="nav-link" data-nav="guides">My Guides</button>
+          <button class="nav-link" data-nav="help">Help</button>
+          <button class="nav-link" data-nav="about">About</button>
+        </nav>
+
+        <div class="language-switcher" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="en">🇬🇧 English</button>
+          <button class="lang-btn" data-lang="te">🇮🇳 తెలుగు</button>
+          <button class="lang-btn" data-lang="hi">🇮🇳 हिन्दी</button>
+        </div>
+      </header>
+
+      <main class="dashboard-area">
+        <section id="home-panel" class="panel active">
+          <div class="heading-box">
+            <h2 id="home-title">How can we help you today?</h2>
+            <p id="home-subtitle">Choose a service and we'll guide you step by step.</p>
+          </div>
+
+          <div class="search-wrap">
+            <label class="search-label" for="service-search">What do you want to do?</label>
+            <input id="service-search" type="text" placeholder="Example: How do I withdraw money from ATM?" />
+          </div>
+
+          <div id="search-results" class="search-results"></div>
+          <div id="category-grid" class="category-grid"></div>
+        </section>
+
+        <section id="guides-panel" class="panel">
+          <div class="heading-box">
+            <h2 id="guides-title">My Guides</h2>
+            <p id="guides-subtitle">Your recent help topics.</p>
+          </div>
+          <div id="saved-guides" class="saved-guides"></div>
+        </section>
+
+        <section id="help-panel" class="panel">
+          <div class="heading-box">
+            <h2 id="help-title">Help & Emergency</h2>
+            <p id="help-subtitle">Important numbers and quick guidance.</p>
+          </div>
+          <div class="emergency-grid">
+            <div class="emergency-card">
+              <h3 id="emergency-services-title">Emergency Services</h3>
+              <ul>
+                <li>🚑 <span id="emergency-ambulance">Ambulance: 108</span></li>
+                <li>🚓 <span id="emergency-police">Police: 112</span></li>
+                <li>🚒 <span id="emergency-fire">Fire: 101</span></li>
+              </ul>
+            </div>
+            <div class="emergency-card">
+              <h3 id="important-contacts-title">Important Contacts</h3>
+              <ul>
+                <li>👨‍👩‍👧 <span id="family-contact">Family member</span></li>
+                <li>🏥 <span id="nearby-hospital">Nearby hospital</span></li>
+                <li>🧑‍⚕️ <span id="doctor-contact">Doctor contact</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="about-panel" class="panel">
+          <div class="heading-box">
+            <h2 id="about-title">About Digital Saathi</h2>
+            <p id="about-subtitle">A friendly digital companion for seniors and beginners.</p>
+          </div>
+          <div class="about-box">
+            <p id="about-copy">Digital Saathi teaches simple digital tasks one step at a time. It supports easy language, voice guidance, and clear explanations designed for comfort and confidence.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="category-screen" class="screen">
+      <header class="topbar">
+        <div class="brand-mark small-brand">
+          <span class="brand-dark">Digital</span><span class="brand-purple">Saathi</span>
+        </div>
+        <button id="category-back" class="back-btn">← Back</button>
+      </header>
+
+      <main class="category-area">
+        <div class="category-header">
+          <h2 id="category-title">Banking Help</h2>
+        </div>
+        <div id="service-grid" class="service-grid"></div>
+      </main>
+    </div>
+
+    <div id="guide-screen" class="screen">
+      <header class="topbar">
+        <div class="brand-mark small-brand">
+          <span class="brand-dark">Digital</span><span class="brand-purple">Saathi</span>
+        </div>
+        <button id="guide-back" class="back-btn">← Back</button>
+      </header>
+
+      <main class="guide-area">
+        <article class="guide-card">
+          <div class="guide-topline">
+            <span id="step-badge" class="step-badge">Step 1 of 4</span>
+            <span id="guide-category-tag" class="tag-pill">Banking</span>
+          </div>
+
+          <div class="guide-visual-wrap">
+            <img id="guide-image" src="img/banking-balance.svg" alt="Guide illustration" />
+          </div>
+
+          <h3 id="guide-title">How to Withdraw Money from an ATM</h3>
+          <p id="guide-text" class="guide-text">Go to an ATM and insert your debit card.</p>
+
+          <div id="safety-message" class="safety-message"></div>
+
+          <div class="guide-actions">
+            <button id="listen-btn" class="action-btn primary">🔊 Listen</button>
+            <button id="stuck-btn" class="action-btn secondary">🆘 I'm Stuck</button>
+            <button id="repeat-btn" class="action-btn tertiary">🔁 Explain Again</button>
+          </div>
+
+          <div class="progress-wrap">
+            <div id="progress-label" class="progress-label">Progress</div>
+            <div class="progress-bar">
+              <div id="progress-fill" class="progress-fill"></div>
+            </div>
+          </div>
+
+          <div class="nav-actions">
+            <button id="prev-btn" class="nav-btn">← Previous</button>
+            <button id="next-btn" class="nav-btn primary">Next →</button>
+          </div>
+        </article>
+      </main>
+    </div>
+
+    <div id="stuck-modal" class="stuck-modal hidden" aria-live="polite">
+      <div class="modal-card">
+        <h3>No problem. Let's understand this again.</h3>
+        <p id="stuck-message"></p>
+        <div class="modal-actions">
+          <button id="modal-voice" class="action-btn primary">🔊 Explain With Voice</button>
+          <button id="modal-close" class="action-btn tertiary">Got it → Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#eefbf4"/>
+  <rect x="115" y="120" width="570" height="260" rx="30" fill="#fff" opacity="0.94"/>
+  <rect x="155" y="165" width="190" height="170" rx="22" fill="#14b86d"/>
+  <text x="250" y="250" font-size="56" text-anchor="middle" fill="#fff">UPI</text>
+  <text x="400" y="220" font-size="32" fill="#166534" font-family="Arial">Digital Payment</text>
+  <text x="400" y="270" font-size="52" fill="#111827" font-family="Arial" font-weight="700">₹ 1,250</text>
+  <text x="400" y="320" font-size="22" fill="#4b5563" font-family="Arial">Paying to Rahul Sharma</text>
+</svg>

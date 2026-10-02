@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suraksha - Contacts</title>
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">👴 Suraksha</div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="daily.html">Daily Care</a>
+        <a href="health.html">Health</a>
+        <a href="emergency.html">Emergency</a>
+        <a href="contacts.html" class="active">Contacts</a>
+      </div>
+      <a href="tel:108" class="sos">SOS</a>
+    </nav>
+
+    <main class="page">
+      <section class="page-intro">
+        <h1>Important Contacts</h1>
+        <p>
+          Keep the right people and helplines within easy reach at all times.
+        </p>
+      </section>
+
+      <section class="info-grid">
+        <article class="tip-box">
+          <h3>Emergency Helplines</h3>
+          <ul>
+            <li>National Emergency: <strong>112</strong></li>
+            <li>Ambulance: <strong>108</strong></li>
+            <li>Women’s Helpline: <strong>1091</strong></li>
+            <li>Senior Helpline: <strong>14567</strong></li>
+          </ul>
+        </article>
+
+        <article class="form-card">
+          <h3>Add Family Contact</h3>
+          <div class="form-row">
+            <label for="cName">Name</label>
+            <input id="cName" type="text" placeholder="e.g. Son" />
+          </div>
+          <div class="form-row">
+            <label for="cNum">Phone Number</label>
+            <input id="cNum" type="tel" placeholder="e.g. +91 98765 43210" />
+          </div>
+          <button class="primary" type="button" id="addContactBtn">Save Contact</button>
+        </article>
+      </section>
+
+      <section class="panel" style="margin-top: 2rem;">
+        <h3>Saved Contacts</h3>
+        <div id="contactList" class="contact-list"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

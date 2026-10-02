@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#fff7ed"/>
+  <rect x="120" y="120" width="560" height="260" rx="28" fill="#fff" opacity="0.96"/>
+  <rect x="180" y="155" width="140" height="190" rx="20" fill="#f97316"/>
+  <text x="250" y="235" font-size="60" text-anchor="middle" fill="#fff">📱</text>
+  <text x="390" y="220" font-size="32" fill="#c2410c" font-family="Arial">Mobile Recharge</text>
+  <text x="390" y="270" font-size="46" fill="#111827" font-family="Arial" font-weight="700">₹ 399 plan</text>
+  <text x="390" y="315" font-size="22" fill="#4b5563" font-family="Arial">Payment successful</text>
+</svg>

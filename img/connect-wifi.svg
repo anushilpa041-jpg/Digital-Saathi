@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#ecfeff"/>
+  <rect x="120" y="120" width="560" height="260" rx="28" fill="#fff" opacity="0.95"/>
+  <circle cx="240" cy="220" r="80" fill="#22c55e"/>
+  <path d="M202 220c12-28 40-44 72-44s60 16 72 44" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M180 220c22-42 62-66 108-66s86 24 108 66" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <text x="400" y="220" font-size="32" fill="#15803d" font-family="Arial">Wi‑Fi Connected</text>
+  <text x="400" y="270" font-size="44" fill="#111827" font-family="Arial" font-weight="700">HomeNet 5G</text>
+  <text x="400" y="315" font-size="22" fill="#4b5563" font-family="Arial">Strong signal</text>
+</svg>

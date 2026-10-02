@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#fff7ed"/>
+  <rect x="105" y="120" width="590" height="260" rx="26" fill="#fff" opacity="0.95"/>
+  <rect x="155" y="180" width="200" height="120" rx="24" fill="#f59e0b"/>
+  <circle cx="185" cy="320" r="18" fill="#fff"/>
+  <circle cx="315" cy="320" r="18" fill="#fff"/>
+  <text x="420" y="220" font-size="32" fill="#9a5b00" font-family="Arial">Cab Booking</text>
+  <text x="420" y="270" font-size="42" fill="#111827" font-family="Arial" font-weight="700">Pickup in 8 min</text>
+  <text x="420" y="315" font-size="22" fill="#4b5563" font-family="Arial">Route: City Center to Home</text>
+</svg>

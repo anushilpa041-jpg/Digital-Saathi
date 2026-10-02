@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#fef2f2"/>
+  <rect x="120" y="120" width="560" height="260" rx="28" fill="#fff" opacity="0.96"/>
+  <circle cx="220" cy="220" r="80" fill="#ef4444"/>
+  <text x="220" y="235" font-size="60" text-anchor="middle" fill="#fff">!</text>
+  <text x="390" y="220" font-size="32" fill="#991b1b" font-family="Arial">Emergency Help</text>
+  <text x="390" y="270" font-size="46" fill="#111827" font-family="Arial" font-weight="700">Call 108 / 112</text>
+  <text x="390" y="315" font-size="22" fill="#4b5563" font-family="Arial">Stay calm and ask for help</text>
+</svg>

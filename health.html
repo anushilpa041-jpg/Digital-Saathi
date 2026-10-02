@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suraksha - Health</title>
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">👴 Suraksha</div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="daily.html">Daily Care</a>
+        <a href="health.html" class="active">Health</a>
+        <a href="emergency.html">Emergency</a>
+        <a href="contacts.html">Contacts</a>
+      </div>
+      <a href="tel:108" class="sos">SOS</a>
+    </nav>
+
+    <main class="page">
+      <section class="page-intro">
+        <h1>Health &amp; Medicine Support</h1>
+        <p>
+          Simple reminders and regular monitoring help seniors stay well and safe.
+        </p>
+      </section>
+
+      <section class="info-grid">
+        <article class="callout">
+          <h3>Daily Health Tips</h3>
+          <ul>
+            <li>Track blood pressure and sugar levels at the same time daily.</li>
+            <li>Take all medicines as prescribed and do not skip doses.</li>
+            <li>Watch for dizziness, fever, confusion, or unusual weakness.</li>
+            <li>Keep hydration and fiber in the diet.</li>
+          </ul>
+        </article>
+
+        <article class="form-card">
+          <h3>Add Medicine Reminder</h3>
+          <div class="form-row">
+            <label for="medName">Medicine Name</label>
+            <input id="medName" type="text" placeholder="e.g. Vitamin D" />
+          </div>
+          <div class="form-row">
+            <label for="medTime">Time</label>
+            <input id="medTime" type="time" />
+          </div>
+          <button class="primary" type="button" id="addMedBtn">Save Reminder</button>
+          <div id="medStatus" class="status"></div>
+        </article>
+      </section>
+
+      <section class="panel" style="margin-top: 2rem;">
+        <h3>Medicine Schedule</h3>
+        <div id="medList" class="medicine-list"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

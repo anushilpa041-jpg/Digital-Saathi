@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suraksha - Emergency</title>
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">👴 Suraksha</div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="daily.html">Daily Care</a>
+        <a href="health.html">Health</a>
+        <a href="emergency.html" class="active">Emergency</a>
+        <a href="contacts.html">Contacts</a>
+      </div>
+      <a href="tel:108" class="sos">SOS</a>
+    </nav>
+
+    <main class="page">
+      <section class="page-intro">
+        <h1>Emergency Readiness</h1>
+        <p>
+          Preparedness can reduce panic and help seniors act quickly during sudden
+          situations.
+        </p>
+      </section>
+
+      <section class="info-grid">
+        <article class="panel emergency">
+          <h3>What to do in a crisis</h3>
+          <ul>
+            <li>Keep a charged mobile phone and emergency numbers visible.</li>
+            <li>If a fall occurs, do not try to stand immediately.</li>
+            <li>During heatwaves, stay hydrated and avoid direct sun.</li>
+            <li>In a power cut, keep flashlight, water, and a battery pack ready.</li>
+          </ul>
+        </article>
+
+        <article class="callout">
+          <h3>Emergency Kit</h3>
+          <ul>
+            <li>Flashlight and extra batteries</li>
+            <li>First-aid box</li>
+            <li>Glucose, prescribed medicines, and water</li>
+            <li>Emergency contact list and ID copy</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="panel" style="margin-top: 2rem;">
+        <h3>Quick SOS</h3>
+        <p>Press the emergency button to call 108 or keep a family contact ready.</p>
+        <button class="danger" type="button" id="sosBtn">🚨 SOS Call 108</button>
+        <div id="sosStatus" class="status"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

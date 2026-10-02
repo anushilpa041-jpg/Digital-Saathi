@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f5f3ff"/>
+  <rect x="120" y="120" width="560" height="260" rx="28" fill="#fff" opacity="0.95"/>
+  <rect x="165" y="160" width="180" height="180" rx="20" fill="#8b5cf6"/>
+  <text x="255" y="255" font-size="54" text-anchor="middle" fill="#fff">PNR</text>
+  <text x="400" y="220" font-size="30" fill="#4c1d95" font-family="Arial">Train Status</text>
+  <text x="400" y="272" font-size="44" fill="#111827" font-family="Arial" font-weight="700">Confirmed</text>
+  <text x="400" y="315" font-size="22" fill="#4b5563" font-family="Arial">Coach: B2, Seat: 21</text>
+</svg>

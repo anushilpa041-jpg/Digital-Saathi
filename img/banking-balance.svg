@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1"><stop offset="0%" stop-color="#eef6ff"/><stop offset="100%" stop-color="#d4e7ff"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g1)"/>
+  <rect x="90" y="120" width="620" height="260" rx="26" fill="#ffffff" opacity="0.9"/>
+  <rect x="130" y="160" width="180" height="120" rx="20" fill="#2c3e9e"/>
+  <text x="220" y="222" font-size="52" text-anchor="middle" fill="#fff">₹</text>
+  <text x="360" y="200" font-size="34" fill="#1e3a8a" font-family="Arial">Bank Balance</text>
+  <text x="360" y="248" font-size="52" fill="#111827" font-family="Arial" font-weight="700">₹ 24,500</text>
+  <text x="360" y="300" font-size="24" fill="#4b5563" font-family="Arial">Safe • Updated today</text>
+</svg>
